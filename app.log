@@ -1,0 +1,180 @@
+22:08:51 | INFO  | src.main_window:52 | 主窗口初始化完成
+22:08:53 | INFO  | src.main_window:231 | 导入参考图片: D:\01.Lwq\01.Lwq\OCR-XDF\参考图片\example.png
+22:08:53 | INFO  | src.main_window:245 | 截图完成: D:\01.Lwq\01.Lwq\OCR-XDF\src\screenshots\screenshot_0b95476c.png
+22:08:54 | INFO  | src.main_window:262 | 开始 AI 视觉识别
+22:09:16 | DEBUG | src.modules.extractor:71 | VLM 原始返回: {
+    "date": "2026年05月05日",
+    "course_name": "数学",
+    "start_time": "10:00",
+    "end_time": "12:00",
+    "period": "上午",
+    "location": "朝阳新城桂殿路学习中心 X朝阳新城桂殿路VIP203",
+    "notes": "常规面授"
+}
+22:09:16 | INFO  | src.main_window:288 | AI 识别完成: 📚 课程通知
+━━━━━━━━━━━━━━━━━━━━
+📅 日期：2026年05月05日
+📖 科目：数学
+⏰ 时间：10:00 - 12:00（上午）
+📍 位置：朝阳新城桂殿路学习中心 X朝阳新城桂殿
+22:09:41 | CRITICAL | __main__:21 | 未捕获异常: %s
+22:09:44 | CRITICAL | __main__:21 | 未捕获异常: %s
+22:09:51 | CRITICAL | __main__:21 | 未捕获异常: %s
+22:09:56 | CRITICAL | __main__:21 | 未捕获异常: %s
+22:10:09 | CRITICAL | __main__:21 | 未捕获异常: %s
+22:17:19 | INFO  | src.main_window:52 | 主窗口初始化完成
+22:17:21 | CRITICAL | __main__:21 | 未捕获异常: %s
+22:20:26 | INFO  | src.main_window:52 | 主窗口初始化完成
+22:20:40 | INFO  | src.main_window:221 | 导入图片: D:/01.Lwq/01.Lwq/OCR-XDF/参考图片/a025ca2a-111b-4aef-916e-b15e746137f3.png
+22:20:40 | INFO  | src.main_window:245 | 截图完成: D:\01.Lwq\01.Lwq\OCR-XDF\src\screenshots\screenshot_fb3c6c8d.png
+22:20:42 | INFO  | src.main_window:262 | 开始 AI 视觉识别
+22:21:12 | DEBUG | src.modules.extractor:71 | VLM 原始返回: {
+    "date": "05月03日",
+    "course_name": "数学",
+    "start_time": "10:00",
+    "end_time": "12:00",
+    "period": "上午",
+    "location": "朝阳新城桂殿路学习中心 X朝阳新城桂殿路VIP203",
+    "notes": "常规面授"
+}
+22:21:12 | INFO  | src.main_window:288 | AI 识别完成: 📚 课程通知
+━━━━━━━━━━━━━━━━━━━━
+📅 日期：05月03日
+📖 科目：数学
+⏰ 时间：10:00 - 12:00（上午）
+📍 位置：朝阳新城桂殿路学习中心 X朝阳新城桂殿路VIP2
+22:21:54 | INFO  | src.main_window:262 | 开始 AI 视觉识别
+22:22:39 | DEBUG | src.modules.extractor:71 | VLM 原始返回: 
+22:22:39 | ERROR | src.modules.extractor:77 | VLM 返回无法解析为 JSON: 
+22:22:39 | INFO  | src.main_window:288 | AI 识别完成: 📚 课程通知
+━━━━━━━━━━━━━━━━━━
+📅 日期：（未识别）
+📖 科目：（未识别）
+⏰ 时间：（未识别） - （未识别）（（未识别））
+📍 位置：（未识别）
+📝 备注：（无）
+━━━━━━
+22:47:16 | INFO  | src.main_window:52 | 主窗口初始化完成
+22:47:18 | INFO  | src.main_window:231 | 导入参考图片: D:\01.Lwq\01.Lwq\OCR-XDF\参考图片\example.png
+22:47:18 | INFO  | src.main_window:245 | 截图完成: D:\01.Lwq\01.Lwq\OCR-XDF\src\screenshots\screenshot_76829541.png
+22:47:29 | INFO  | src.main_window:231 | 导入参考图片: D:\01.Lwq\01.Lwq\OCR-XDF\参考图片\example.png
+22:47:29 | INFO  | src.main_window:245 | 截图完成: D:\01.Lwq\01.Lwq\OCR-XDF\src\screenshots\screenshot_8835b2f2.png
+22:47:34 | INFO  | src.main_window:221 | 导入图片: D:/01.Lwq/01.Lwq/OCR-XDF/参考图片/a025ca2a-111b-4aef-916e-b15e746137f3.png
+22:47:34 | INFO  | src.main_window:245 | 截图完成: D:\01.Lwq\01.Lwq\OCR-XDF\src\screenshots\screenshot_ecb12c3d.png
+22:47:36 | INFO  | src.main_window:262 | 开始 AI 视觉识别
+22:47:58 | DEBUG | src.modules.extractor:53 | VLM 原始返回: ```json
+[
+  {
+    "date": "05月03日",
+    "time": "10:00-12:00",
+    "subject": "数学",
+    "teacher": "李嘉炜",
+    "location": "朝阳新城桂殿路学习中心",
+    "room": "X朝阳新城桂殿路VIP203",
+    "type": "常规面授"
+  },
+  {
+    "date": "05月01日",
+    "time": "14:00-16:00",
+    "subject": "语文",
+    "teacher": "李坤宁",
+    "location
+22:47:58 | INFO  | src.main_window:288 | AI 识别完成: ```json
+[
+  {
+    "date": "05月03日",
+    "time": "10:00-12:00",
+    "subject": "数学",
+    "teacher": "
+23:24:11 | INFO  | src.main_window:55 | 主窗口初始化完成
+23:24:32 | CRITICAL | __main__:21 | 未捕获异常: %s
+23:24:34 | CRITICAL | __main__:21 | 未捕获异常: %s
+23:24:36 | CRITICAL | __main__:21 | 未捕获异常: %s
+23:24:41 | CRITICAL | __main__:21 | 未捕获异常: %s
+23:24:42 | CRITICAL | __main__:21 | 未捕获异常: %s
+23:24:42 | CRITICAL | __main__:21 | 未捕获异常: %s
+23:24:43 | CRITICAL | __main__:21 | 未捕获异常: %s
+23:24:44 | CRITICAL | __main__:21 | 未捕获异常: %s
+23:24:45 | CRITICAL | __main__:21 | 未捕获异常: %s
+23:24:45 | CRITICAL | __main__:21 | 未捕获异常: %s
+23:24:45 | CRITICAL | __main__:21 | 未捕获异常: %s
+23:24:46 | CRITICAL | __main__:21 | 未捕获异常: %s
+23:24:51 | CRITICAL | __main__:21 | 未捕获异常: %s
+23:24:52 | CRITICAL | __main__:21 | 未捕获异常: %s
+23:24:52 | CRITICAL | __main__:21 | 未捕获异常: %s
+23:24:53 | CRITICAL | __main__:21 | 未捕获异常: %s
+23:24:54 | CRITICAL | __main__:21 | 未捕获异常: %s
+23:24:56 | CRITICAL | __main__:21 | 未捕获异常: %s
+23:24:56 | CRITICAL | __main__:21 | 未捕获异常: %s
+23:24:56 | CRITICAL | __main__:21 | 未捕获异常: %s
+23:25:12 | CRITICAL | __main__:21 | 未捕获异常: %s
+23:25:12 | CRITICAL | __main__:21 | 未捕获异常: %s
+23:25:13 | CRITICAL | __main__:21 | 未捕获异常: %s
+23:25:13 | CRITICAL | __main__:21 | 未捕获异常: %s
+23:25:13 | CRITICAL | __main__:21 | 未捕获异常: %s
+23:25:13 | CRITICAL | __main__:21 | 未捕获异常: %s
+23:25:14 | CRITICAL | __main__:21 | 未捕获异常: %s
+23:25:15 | CRITICAL | __main__:21 | 未捕获异常: %s
+23:25:15 | CRITICAL | __main__:21 | 未捕获异常: %s
+23:25:15 | CRITICAL | __main__:21 | 未捕获异常: %s
+23:25:17 | CRITICAL | __main__:21 | 未捕获异常: %s
+23:25:17 | CRITICAL | __main__:21 | 未捕获异常: %s
+00:21:10 | INFO  | src.main_window:55 | 主窗口初始化完成
+00:41:00 | INFO  | src.main_window:55 | 主窗口初始化完成
+00:41:36 | INFO  | src.main_window:293 | 开始 AI 视觉识别（共 1 张图片）
+00:42:01 | DEBUG | src.modules.extractor:148 | VLM 原始返回: {"date":"2026-05-02","time":"14:00-16:00","subject":"数学","teacher":"李嘉伟","location":"朝阳新城桂殿路学习中心 X朝阳新城桂殿路VIP201","type":"常规面授"}
+00:42:01 | INFO  | src.main_window:318 | AI 识别完成: 📚 课程通知
+━━━━━━━━━━━━━━━━━━
+📅 日期：2026-05-02
+📖 科目：
+⏰ 时间： - （）
+📍 位置：朝阳新城桂殿路学习中心 X朝阳新城桂殿路VIP201
+📝 备注：
+━━━
+14:44:52 | INFO  | src.main_window:55 | 主窗口初始化完成
+14:45:36 | INFO  | src.main_window:293 | 开始 AI 视觉识别（共 2 张图片）
+14:45:41 | INFO  | src.modules.extractor:131 | 已添加第 1 张图片
+14:45:41 | INFO  | src.modules.extractor:131 | 已添加第 2 张图片
+14:46:09 | DEBUG | src.modules.extractor:148 | VLM 原始返回: {
+    "courses": [
+        {
+            "date": "2026年05月05日",
+            "time": "10:00-12:00",
+            "subject": "数学",
+            "teacher": "李嘉伟",
+            "location": "朝阳新城桂殿路学习中心",
+            "room": "X朝阳新城桂殿路VIP203",
+            "type": "常规面授"
+        },
+        {
+            "date
+14:46:09 | INFO  | src.main_window:318 | AI 识别完成: 📚 课程通知
+━━━━━━━━━━━━━━━━━━
+📅 日期：
+📖 科目：
+⏰ 时间： - （）
+📍 位置：
+📝 备注：
+━━━━━━━━━━━━━━━━━━
+17:21:10 | INFO  | src.main_window:55 | 主窗口初始化完成
+17:21:32 | INFO  | src.main_window:293 | 开始 AI 视觉识别（共 1 张图片）
+17:21:34 | INFO  | src.modules.extractor:166 | 正在处理第 1 张图片...
+17:22:35 | DEBUG | src.modules.extractor:186 | 第 1 张图片 VLM 原始返回: {
+  "date": "5月5日",
+  "course_name": "数学 李嘉伟",
+  "start_time": "10:00",
+  "end_time": "12:00",
+  "period": "上午",
+  "location": "VIP203",
+  "notes": "常规面授"
+}
+17:22:35 | INFO  | src.modules.extractor:191 | 第 1 张图片成功提取 1 个课程
+17:22:35 | INFO  | src.modules.extractor:210 | 共提取 1 个课程，去重后剩余 1 个
+17:22:35 | INFO  | src.main_window:318 | AI 识别完成: 📚 课程通知
+━━━━━━━━━━━━━━━━━━
+📅 日期：5月5日
+📖 科目：数学 李嘉伟
+⏰ 时间：10:00 - 12:00（上午）
+📍 位置：VIP203
+📝 备注：常规面授
+━━━━━━━

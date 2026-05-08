@@ -1,0 +1,18 @@
+{
+  "screenshot_path": "D:\\01.Lwq\\01.Lwq\\OCR-XDF\\src\\screenshots\\screenshot_67357823.png",
+  "ocr_text": "2026\n05月04日\n05月05日\n08:00-10:00\n数学李嘉炜\n10:00-12:00\n朝阳新城桂殿路学习中心\nX朝阳新城桂殿路VIP203\n常规面授\n12:00-14:00",
+  "extracted_info": {
+    "date": "22 ",
+    "course_name": "数学",
+    "start_time": " ",
+    "end_time": " ",
+    "period": " 上 ",
+    "location": "朝阳新城桂殿路VIP ",
+    "notes": " "
+  },
+  "notification_text": "课程：数学 时间： -  地点：朝阳新城桂殿路VIP  备注：",
+  "template_type": "wechat",
+  "extract_mode": "llm",
+  "id": "24",
+  "timestamp": "2026-05-01 13:57:39"
+}
