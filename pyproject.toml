@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
+[project]
+name = "ocr-xdf"
+version = "1.0.0"
+description = "课程信息提取工具 - 截图→OCR→提取→通知生成"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "PyQt6>=6.5.0",
+    "Pillow>=10.0.0",
+    "mss>=9.0.0",
+    "loguru>=0.7.0",
+    "openai>=1.0.0",
+    "httpx>=0.24.0",
+]
+
+[project.scripts]
+ocr-xdf = "src.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["src*"]
